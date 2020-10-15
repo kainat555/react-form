@@ -24,6 +24,13 @@ class Form extends Component{
         // alert(`My name is ${this.state.fullname}`)
         alert(JSON.stringify(this.state))   // to convert JS object into strings
       e.preventDefault()
+      this.setState({
+        fullname : '',
+        password : '',
+        email : '',
+        number : '',
+        message : ''
+      })
     }
 
     render(){

@@ -53,4 +53,5 @@ input[type='number']:focus{
    height : 30px;
    color: purple;
    font-size: large;
+   cursor: pointer;
 }
